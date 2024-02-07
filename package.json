@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "mocha tests/index.test.tsx --experimental-specifier-resolution=node"
+    "test": "mocha tests/*.test.tsx --experimental-specifier-resolution=node"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
@@ -23,6 +23,7 @@
     "react-icons": "^4.7.1",
     "react-infinite-scroll-component": "6.1",
     "react-router-dom": "^6.10.0",
+    "selenium-webdriver": "^4.17.0",
     "zustand": "^4.3.7"
   },
   "devDependencies": {
@@ -32,6 +33,7 @@
     "@types/ms": "^0.7.31",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@types/selenium-webdriver": "^4.1.21",
     "@vitejs/plugin-react": "^3.1.0",
     "chai": "^5.0.3",
     "global-jsdom": "^24.0.0",
