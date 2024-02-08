@@ -30,6 +30,7 @@ This project was developed by following Mosh Hamedani's React course. Big thanks
 ## 🛠️ Technologies Used
 
 - [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Chakra UI](https://chakra-ui.com/)
 - [Mocha](https://mochajs.org/)
