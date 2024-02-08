@@ -11,7 +11,13 @@ To get started with GameHub, follow these steps:
 2. Run `npm install` to install the required dependencies.
 3. Get a RAWG API key at https://rawg.io/apidocs. You'll have to create an account first. 
 4. Add the API key to **src/services/api-client.ts**
-5. Run `npm run dev` to start the web server. 
+5. Run `npm run dev` to start the web server.
+
+## Running Tests
+
+To run tests, use the following command:
+
+`npm run test`
 
 ## 🚀 Live Demo
 
@@ -26,3 +32,4 @@ This project was developed by following Mosh Hamedani's React course. Big thanks
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Chakra UI](https://chakra-ui.com/)
+- [Mocha](https://mochajs.org/)
